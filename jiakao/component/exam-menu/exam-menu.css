@@ -1,0 +1,69 @@
+.clearfix:after{
+	clear:both;
+	content:" ";
+	display: block;
+}
+
+.exam-menu-wrapper {
+	border: 1px solid #f0f0f0;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px
+}
+
+.exam-menu-wrapper  .header{
+	 height: 2.5em;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 2.5em;
+    padding-left: 1em;
+
+}
+.exam-menu-wrapper  .body{
+
+}
+.exam-menu-wrapper .body .main{
+	/*clear: both*/
+}
+.exam-menu-wrapper .body .main .left{
+    float: left;
+    width: 49%;
+    height: 5em;
+    line-height: 5em;
+    border-right: 1px solid #f0f0f0;
+    border-bottom:1px solid #f0f0f0;
+}
+.exam-menu-wrapper  .body .main .right{
+	float: left;
+    width: 50%;
+}
+.exam-menu-wrapper .body .main .right .fav{
+	height: 2.5em;
+    line-height: 2.5em;
+    border-bottom:1px solid #f0f0f0;
+
+}
+.exam-menu-wrapper .body .main .right .err{
+	height: 2.5em;
+    line-height: 2.5em;
+    border-bottom:1px solid #f0f0f0;
+
+}
+.exam-menu-wrapper .body .types{
+	/*clear: both*/
+
+}
+.exam-menu-wrapper .body .types .type{
+	    float: left;
+    width: 25%;
+    /*border-bottom: 1px solid #f0f0f0;*/
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center
+
+}
+
+.exam-menu-wrapper .body .main{
+
+}
+
+

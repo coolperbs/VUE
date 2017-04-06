@@ -1,13 +1,24 @@
 (function(){
-	var handle,html,css;
+	var component,handle,_fn;
 	handle = {
-		tpl:html,
-		css:css,
-		
-	}
-	define("view/home/home",function(require, exports, module){
-		html = require("view/home/home.tpl");
-		css = require("view/home/home.css");
-		module.exports = handle;
+
+	};
+	_fn = {
+
+	};
+	define('view/home/home',function(require,module,exports){
+		require('view/home/home.css');
+		require('view/home/home.tpl');
+		var menu = require('component/exam-menu/exam-menu');
+
+		Vue.component('home',{
+			template:"#page-home",
+			
+		});
+
+
+
+		module.exports = component;
+
 	});
 })();
