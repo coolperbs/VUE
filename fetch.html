@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fetch</title>
+</head>
+<script type="text/javascript">
+ var req = new Request(
+ 	"https://www.wxapp-gateway.com/wxapp/dle/examData?subject=1&model=c1&testType=rand&key=325e34a760339c8c8f29c061308e8b55",
+ {
+ 	mode: "no-cors",
+ });
+ fetch(req).then(function(resp){
+ 	return resp.json();
+
+ }).then(function(abc){
+ 	console.log(abc);
+
+ });
+	
+</script>
+<body>
+
+</body>
+</html>
